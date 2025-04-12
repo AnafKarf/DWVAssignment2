@@ -12,6 +12,8 @@ docker-compose up --build
 
 Go to localhost:5000
 
+**Note**: The data is sent only once, and there is no way to reverse the process, except for restarting the container!
+
 ## What I learned
 
 I have already used Docker for other subjects, however I have not used Three.js very much, so it was a new experience for me.
