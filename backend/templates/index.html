@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/geometries/TextGeometry.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FontLoader.min.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="container"></div>
+    <div id="stats-panel">
+        <h2>Statistics</h2>
+        <div id="top-ips">
+            <h3>Most Active IPs</h3>
+            <ul id="ip-list"></ul>
+        </div>
+        <div id="suspicious-stats">
+            <h3>Suspicious Signals</h3>
+            <div id="suspicious-percentage">0%</div>
+        </div>
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
